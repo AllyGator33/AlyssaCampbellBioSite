@@ -1,0 +1,203 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************nav*********************/
+nav ul{
+	/*removes the dots*/
+	list-style-type: none;
+	/*remove the spacing*/
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+	/*background color of the whole bar*/
+  background-color: #EB52C0;
+
+  
+ 	
+}
+
+nav li {
+	/*put the list items side by side*/
+  display: inline-block;
+	overflow:hidden;
+	border-right:1px solid #bbb;
+}
+
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+	transition-duration: 0.3s;
+}
+nav li a:visited{
+	color:white;
+}
+
+nav li a:hover {
+  background-color: #97098D;
+}
+nav{
+	display:block;
+	text-align: center;
+	font-size:20px;
+}
+
+.sticky{
+	position: -webkit-sticky;
+	position: sticky;
+	top:0;
+}
+
+/*****************header*****************/
+header{
+	
+	text-align: center;
+	padding: 35px 0px;
+	background-color: #0BC8BF;
+	padding-left: 500px;
+	padding-right: 500px;
+	border-style: groove;
+	border-width: 10px;
+	border-color: #EB52C0;
+}
+
+
+h1 {
+	background-color: #555252;
+	color: white;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	border-style: double;
+	border-color: #C8309D;
+	border-width: 10px;
+	padding: 10px;
+	
+}
+
+body {
+	background-color: #F3F3F3;
+	margin: 50px;
+
+}	
+
+section {
+	overflow:hidden;
+	margin:0 auto;
+}
+/*************************about***********************/
+#About{
+	background-color: #98F2E4;
+	border-style: double;
+	border-width:15px;
+	border-color: #1DC3BD
+}
+p {
+font-family: 'Orbitron', sans-serif; 
+	margin: 50px;
+	text-align: center;
+	
+}
+
+#WideMikuGif {
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-left: 650px;
+}
+/************************end of section*******************/
+
+/***************************quotes**********************/
+
+h2 {
+	font-family: 'Orbitron', sans-serif;
+	padding-top: 50px;
+	text-align: center;
+}
+#Quotes {
+	background-color: #FCC6E6;
+	border-style: double;
+	border-width:15px;
+	border-color: #EB52C0
+}
+blockquote {
+	font-family: 'Orbitron', sans-serif;
+	margin: 50px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+/*******************end of section******************/
+
+/*******************characteristics****************/
+#Characteristics{
+	text-align: center;
+	background-color: #98F2EF;
+	border-style: double;
+	border-width:15px;
+	border-color: #1DC3BD
+}
+ol{
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	padding-left: 850px;
+	padding-right: 850px;
+}
+
+#gif1{
+	margin-top:50px;
+	margin-bottom: 50px;
+	margin-right: 500px;
+}
+/******************end of section*******************/
+
+/******************friends**************************/
+#Friends{
+	background-color: #FCC6E6;
+	border-style: double;
+	border-width:15px;
+	border-color: #EB52C0;
+}
+
+#friendlist {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	padding-left: 850px;
+	padding-right: 850px;
+}
+
+#Kagamine {
+	float:left;
+	margin:50px;
+ 	
+}
+
+#Group {
+	float:right;
+	margin:50px;
+}
+/*****************end of section*******************/
+
+/**********************footer*********************/
+footer {
+	
+	margin:0px;
+	padding: 70px 10px 70px 10px;
+	background-color: #494646;
+	text-align: center;
+	
+}
+a {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	margin:10px;
+	color:#C8309D;
+}
+
+a:link{
+	color:#C8309D;
+	text-decoration: none
+}
+
+a:hover{
+	color:#EC9AD5;
+}
+

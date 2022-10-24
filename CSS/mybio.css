@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+/*******************nav*********************/
+nav ul{
+          	/*removes the dots*/
+          	list-style-type: none;
+          	/*remove the spacing*/
+          	margin:0px;
+          	padding-bottom:3px;
+          	padding-top:3px;
+          	overflow: hidden;
+          	/*background color of the whole bar*/
+  background-color: #E93838;
+          	
+ 
+ 
+          	
+}
+ 
+nav li {
+          	/*put the list items side by side*/
+  display: inline-block;
+          	overflow:hidden;
+}
+ 
+nav li a:link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 30px;
+  text-decoration: none;
+          	transition-duration: 0.3s;
+          	font-family: 'Spline Sans Mono', monospace;
+}
+nav li a:visited{
+          	color:white;
+}
+ 
+nav li a:hover {
+  background-color: #C81E1E;
+}
+nav{
+          	display:block;
+          	text-align: center;
+          	font-size:20px;
+}
+ 
+/*****************header*****************/
+ 
+ 
+#home{
+          	background-color: #014D6D;
+          	font-family: 'Zen Tokyo Zoo', cursive;
+          	font-size: 20px;
+          	text-align: left;
+}
+ 
+#home h1{
+          	font-size: 6vw;
+}
+ 
+#home h4{
+          	font-size:2vw;
+}
+/******************body****************************/
+body {
+          	background-image: url("../BioImages/backroundwater.jpg");
+          	background-position: center;
+          	background-size:cover;
+          	/*sticks background image in place*/
+          	background-attachment: fixed;
+}
+#JapanSite{
+	font-family: 'Spline Sans Mono', monospace;
+	text-decoration: underline;
+	color: white;
+}
+#LemonDemon{
+	font-family: 'Spline Sans Mono', monospace;
+	text-decoration: underline;
+	color: white;
+}
+#MikuOfficial{
+	font-family: 'Spline Sans Mono', monospace;
+	text-decoration: underline;
+	color: white;
+}
+/********************background color classes**************/
+.bg-lightGreen{
+          	background-color: #3E8C84;
+}
+ 
+.bg-darkgreen{
+          	background-color: #198076;
+}
+/*************************About***********************/
+#About{
+          	
+/*      	padding:100px;*/
+          	font-family: 'Spline Sans Mono', monospace;
+/*
+          	margin-right:40px;
+          	margin-left:40px;
+*/
+}
+/**********************Graphic Design stuff*****************/
+#Portfolio{
+          	font-family: 'Spline Sans Mono', monospace;
+          	/*background-color: #198076;*/
+/*
+          	margin-right:20px;
+          	margin-left:20px;
+*/
+}
+#liberty{
+          	width:500px;
+          	float:left;
+}
+ 
+/*****************Art example images****************************/
+#ArtExamples{
+          	font-family: 'Spline Sans Mono', monospace;
+/*      	background-color:  #3E8C84;*/
+/*
+          	margin-right:40px;
+          	margin-left:40px;
+*/
+}
+ 
+ 
+#doki{
+          	width:450px;
+}
+#jiroart{
+          	width:370px;
+}
+/***************WesbiteLinks************************************/
+#WebLinks{
+          	font-family: 'Spline Sans Mono', monospace;
+}
+#MikuSiteLink{
+          	color: #FFFFFF;
+          	text-decoration: underline;
+}
+/**************************Footer*************************/
+#Contact{
+          	font-family: 'Zen Tokyo Zoo', cursive;
+          	background-color:#2D4459;
+          	
+}
+#contactparagraph{
+	 	font-family: 'Spline Sans Mono', monospace;
+}
