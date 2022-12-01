@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MadLibs</title>
+	
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    
+	<!------------The CSS-------------------->
+	<link href="MadLibs.css" rel="stylesheet" type="text/css">
+	
+	<!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script> 
+<!--------------------fonts------------------->
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@500&family=DynaPuff&display=swap');
+</style>
+
+	
+	
+	
+</head>
+<body>
+<!-------------------header------------->
+	<section id="header"> 
+	<header>
+        <div class="container p-5">
+            <div class="row align-items-center customHeight">
+                <div class="col-sm-6 text-white  text-center bg-myColor mx-auto p-5 rounded">
+                    <h1>An Unexpected Encounter...</h1>
+                    <p>A Mad Libs story created by Alyssa Campbell</p>
+                </div>
+            </div>
+        </div>
+    </header>
+		
+	
+		
+	</section>
+
+	    <!---------------------Main Body Content----------------------->
+    <section id="body">
+     
+		<div class="container py-5">
+             <!------------Row for the Form----------------------->
+            <div class="row my-5 p-3">
+                <div class="col-sm-6 mx-auto">
+                    <h2>Hello &amp; Welcome!</h2>
+					
+				<div class="row p-3">
+					
+					<p>This is a Mad Libs game. A customized story will generate based on the answers you provide in the form below, and there are 13 spaces that need to be filled out, so have fun and get creative!</p>
+					
+					</div>
+                    
+ 
+                    <!--Form Goes Here-->
+				
+                    <!--The HTML <form> element is used to create an HTML form for user input-->
+                    <!--One of the most used form element is the <input> element. This creates an input into which the user can enter information-->
+                    <!--The 'type' attribute will change the way the input looks-->
+                    <!--The <label> element defines a label for several form elements. -->
+                    <!--Then we will use a button to trigger our Javascript code!-->
+					<form action="javascript:write();">
+					<div class="form-group">
+					<label for="actionverb">Action Verb</label>
+					  <input id="actionverb" class="form-control" type="text">
+					</div>
+						
+					<div class="form-group">
+					<label for="animalnoise">Animal Noise</label>
+					  <input id="animalnoise" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+				Pick a number
+				<div class="form-check">
+				  <label class="form-check-label">
+					<input type="radio" class="form-check-input" id="numbers" value="3" name="num">3
+				  </label>
+				</div>
+				
+				<div class="form-check">
+				  <label class="form-check-label">
+					<input type="radio" class="form-check-input for" id="numbers1" value="15" name="num">15
+				  </label>
+				</div>
+				
+				<div class="form-check">
+				  <label class="form-check-label">
+					<input type="radio" class="form-check-input" id="numbers2" value="27" name="num">27
+				  </label>
+				</div>
+				
+				
+				
+			</div>
+					
+						
+ 					<div class="form-group">
+					<label for="favouriteanimal">Favourite Animal</label>
+					  <input id="favouriteanimal" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+					<label for="bodypart">Body Part</label>
+					  <input id="bodypart" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+					<label for="person">Person</label>
+					  <input id="person" class="form-control" type="text">
+					</div>
+
+              		<div class="form-group">
+					<label for="superpower">Superpower</label>
+					  <input id="superpower" class="form-control" type="text">
+					</div>
+			
+					<div class="form-group">
+					<label for="yelling">Word similar to yelling</label>
+					  <input id="yelling" class="form-control" type="text">
+					</div>
+						
+						
+						<div class="form-group">
+					<label for="secondverbendingining">2nd Action Verb ending in "ed"</label>
+					  <input id="secondverbendingining" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+					<label for="thirdverb">3rd Action Verb ending in "ing"</label>
+					  <input id="thirdverb" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+					<label for="fourthverb">4th Action Verb ending in "ing"</label>
+					  <input id="fourthverb" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group">
+					<label for="time">Time (amount)</label>
+					  <input id="time" class="form-control" type="text">
+					</div>
+						
+						<div class="form-group pb-5">
+					<label for="nature">Place in nature</label>
+					  <input id="nature" class="form-control" type="text">
+					</div>
+						<!-- button to submit the form-->
+						<button type="submit" class="btn btn-block btn-outline-warning">Submit</button>
+				
+					</form>
+				</div>	
+			</div>
+             <!----------Row for the Output - Notice it has the ID of 'output'---------------------->
+             <div class="row">
+                <div id="output" class="col-sm-6 mx-auto bg-myColor p-5 rounded text-white">
+                    <h2>Your answers will go here, and generate a compelling custom experience.</h2>
+                </div>
+				 
+				 
+				 
+            </div>
+        
+		</div>
+    </section>
+    
+
+
+
+
+
+
+    <!---------------------Footer----------------------->
+<section id="footer">
+        <div class="container text-white text-center p-5">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <p>Thanks for playing!</p>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+
+    <!---------------------Your Custom Javascript----------------------->
+    
+   <script src = "js/MadLibs.js"></script>
+	
+</body>
+</html>

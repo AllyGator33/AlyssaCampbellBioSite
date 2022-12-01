@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{
+	background-color:#FFAE4B;
+	font-family: 'DynaPuff', cursive;
+	/*background-image: url("Images/BackgrndImg.jpg");*/
+	background-size: cover;
+	background-position: center;
+}
+
+#body{
+	background-color: #FFE7AD;
+	font-family: 'Anybody', cursive;
+	
+	
+}
+
+#footer{
+	background-color:#FFAE4B;
+	font-family: 'DynaPuff', cursive;
+	font-size: 27px;
+}
+
+.bg-myColor{
+	background-color:#00969E;
+}
+
+
+
+
