@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#wrapping, #cake, #icing, #topping{
+	position:absolute;
+}
+
+#header{
+	background-image:url("../imahes/cupcakes.jpg");
+	background-size:cover;
+	background-position:center;
+	font-family: 'Twinkle Star', cursive;
+	border-style:dotted;
+	border-width:9px;
+	border-color: hotpink;
+	
+}
+
+
+#welcome{
+	font-size:55px;
+}
+
+#intro{
+	font-family: 'Nerko One', cursive;
+	background-color: #FEE2FF;
+	font-size: 25px;
+	
+}
+
+
+#cupcakeBuilding{
+	font-family: 'Nerko One', cursive;
+	background-color: #FEE2FF;
+}
+#selectionsborder{
+	font-family: 'Twinkle Star', cursive;
+		border-style:double;
+	border-width:5px;
+	border-color: hotpink;
+	
+}
+#resultsborder{
+	font-family: 'Twinkle Star', cursive;
+	
+	
+}
+#footer{
+	font-family: 'Marhey', cursive;
+}
+
+#footerheader{
+	font-family: 'Twinkle Star', cursive;
+}
+
+#photolink{
+	color: hotpink;
+	text-decoration: underline;
+}
+
+#sitelink{
+	color: hotpink;
+	text-decoration: underline;
+}
+
+#learningReflection{
+		background-color: #FEE2FF;
+		font-family: 'Marhey', cursive;
+	font-size:20px;
+	font-style: oblique;
+}
+
+#reflection{
+	font-family: 'Twinkle Star', cursive;
+}
